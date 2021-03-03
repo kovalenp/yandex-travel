@@ -1,114 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <title>Yandex Путешествия</title>
-  </head>
-  <body class="page">
-    <div class="page__container">
-      <header class="header">
-        <nav>
-          <ul class="header__nav">
-            <li class="header__nav-link">
-              <a href="#" class="link" target="_blank">Мечты</a>
-            </li>
-            <li class="header__nav-link">
-              <a href="#" class="link" target="_blank">Ожидания</a>
-            </li>
-            <li class="header__nav-link">
-              <a href="#" class="link" target="_blank">Реальность</a>
-            </li>
-            <li class="header__nav-link">
-              <a href="#" class="link" target="_blank">Пожаловаться</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <h1 class="visually-hidden">Сказ о том, куда я поеду</h1>
-        <section class="section intro">
-          <div class="intro__text">
-            <h2 class="section__title">Куда я поеду</h2>
-            <p class="section__subtitle">
-              Куда я поеду сразу, как можно будет куда-то поехать
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/index.css" />
+  <title>Yandex Путешествия</title>
+</head>
+
+<body class="page">
+  <div class="page__container">
+    <header class="header">
+      <nav>
+        <ul class="header__nav">
+          <li class="header__nav-link">
+            <a href="#" class="link" target="_blank">Мечты</a>
+          </li>
+          <li class="header__nav-link">
+            <a href="#" class="link" target="_blank">Ожидания</a>
+          </li>
+          <li class="header__nav-link">
+            <a href="#" class="link" target="_blank">Реальность</a>
+          </li>
+          <li class="header__nav-link">
+            <a href="#" class="link" target="_blank">Пожаловаться</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="visually-hidden">Сказ о том, куда я поеду</h1>
+      <section class="section intro">
+        <div class="intro__text">
+          <h2 class="section__title">Куда я поеду</h2>
+          <p class="section__subtitle">
+            Куда я поеду сразу, как можно будет куда-то поехать
+          </p>
+        </div>
+        <img class="intro__image" src="./images/intro-image.jpeg" alt="Вид из самолета" />
+      </section>
+      <section class="places">
+        <div class="place">
+          <img class="place__image" src="./images/places-forest.jpeg" alt="Лес" />
+          <div class="place__description">
+            <h3 class="place__title">Поеду в лес</h3>
+            <p class="place__text">
+              Лес — экологическая система, биоценоз, в которой главной
+              жизненной формой являются деревья.
+            </p>
+            <p class="place__text">
+              Лес — составная часть природы, понятие «лес» можно рассматривать
+              на разных уровнях. В глобальном масштабе — это часть биосферы, в
+              локальном — это может быть насаждение. Леса занимают около трети
+              площади суши.
             </p>
           </div>
-          <img
-            class="intro__image"
-            src="./images/intro-image.jpeg"
-            alt="Вид из самолета"
-          />
-        </section>
-        <section class="places">
-          <div class="place">
-            <img
-              class="place__image"
-              src="./images/places-forest.jpeg"
-              alt="Лес"
-            />
-            <div class="place__description">
-              <h3 class="place__title">Поеду в лес</h3>
-              <p class="place__text">
-                Лес — экологическая система, биоценоз, в которой главной
-                жизненной формой являются деревья.
-              </p>
-              <p class="place__text">
-                Лес — составная часть природы, понятие «лес» можно рассматривать
-                на разных уровнях. В глобальном масштабе — это часть биосферы, в
-                локальном — это может быть насаждение. Леса занимают около трети
-                площади суши.
-              </p>
-            </div>
+        </div>
+        <div class="place">
+          <img class="place__image" src="./images/places-mountains.jpeg" alt="Горы" />
+          <div class="place__description">
+            <h3 class="place__title">Поеду в горы</h3>
+            <p class="place__text">
+              Горные системы занимают 64 % поверхности Азии, 36 % — Северной
+              Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и
+              3 % — Африки. В целом 24 % земной поверхности приходится на
+              горы. 10 % всех людей живёт на территории гор. В горах берёт
+              своё начало большинство рек Земли.
+            </p>
           </div>
-          <div class="place">
-            <img
-              class="place__image"
-              src="./images/places-mountains.jpeg"
-              alt="Горы"
-            />
-            <div class="place__description">
-              <h3 class="place__title">Поеду в горы</h3>
-              <p class="place__text">
-                Горные системы занимают 64 % поверхности Азии, 36 % — Северной
-                Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и
-                3 % — Африки. В целом 24 % земной поверхности приходится на
-                горы. 10 % всех людей живёт на территории гор. В горах берёт
-                своё начало большинство рек Земли.
-              </p>
-            </div>
+        </div>
+        <div class="place">
+          <img class="place__image" src="./images/places-black-sea.jpeg" alt="Море" />
+          <div class="place__description">
+            <h3 class="place__title">Поеду на Чёрное море</h3>
+            <p class="place__text">
+              Я уплыву туда, где ни разу я не был, туда, где никто раньше не
+              был. Никто и никогда раньше не был, я уплыву. Я позову тебя
+              смотреть на синее небо и пить по капле синее небо, и падать в
+              это синее небо, я позову.
+            </p>
+            <p class="place__text">
+              Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на
+              Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на
+              Чёрное-Чёрное море, на Чёрное-Чёрное море.
+            </p>
+            <p class="place__text">Уеду я.</p>
           </div>
-          <div class="place">
-            <img
-              class="place__image"
-              src="./images/places-black-sea.jpeg"
-              alt="Море"
-            />
-            <div class="place__description">
-              <h3 class="place__title">Поеду на Чёрное море</h3>
-              <p class="place__text">
-                Я уплыву туда, где ни разу я не был, туда, где никто раньше не
-                был. Никто и никогда раньше не был, я уплыву. Я позову тебя
-                смотреть на синее небо и пить по капле синее небо, и падать в
-                это синее небо, я позову.
-              </p>
-              <p class="place__text">
-                Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на
-                Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на
-                Чёрное-Чёрное море, на Чёрное-Чёрное море.
-              </p>
-              <p class="place__text">Уеду я.</p>
-            </div>
-          </div>
-        </section>
-        <section class="people"></section>
-        <section class="travel-form"></section>
-        <section class="video"></section>
-      </main>
-      <footer class="footer">
-        <p class="footer__copyright">© 2021</p>
-      </footer>
-    </div>
-  </body>
-</html>
+        </div>
+      </section>
+
+      <section class="section people">
+        <div class="people__text">
+          <h2 class="section__title">люди</h2>
+          <p class="section__subtitle">Что говорят и говорили люди о путешествиях</p>
+        </div>
+        <ul class="people__cards">
+          <li class="people__card">
+            <blockquote class="blockquote">
+              <cite class="blockquote__author">иван бунин</cite>
+              <p class="blockquote__text">Человека делают счастливым три вещи: любовь, интересная работа и возможность
+                путешествовать.</p>
+            </blockquote>
+          </li>
+          <li class="people__card">
+            <blockquote class="blockquote">
+              <cite class="blockquote__author">Альбер Камю</cite>
+              <p class="blockquote__text">Путешествие как самая великая и серьезная наука помогает нам вновь обрести
+                себя.</p>
+            </blockquote>
+          </li>
+          <li class="people__card">
+            <blockquote class="blockquote">
+              <cite class="blockquote__author">Норвежская пословица</cite>
+              <p class="blockquote__text">Лишь тот, кто странствует, открывает новые пути.</p>
+            </blockquote>
+          </li>
+          <li class="people__card">
+            <blockquote class="blockquote">
+              <cite class="blockquote__author">Мария Захарова</cite>
+              <p class="blockquote__text">В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень
+                рискованное предприятие.</p>
+            </blockquote>
+          </li>
+        </ul>
+
+
+
+      </section>
+
+      <section class="travel-form">
+        <form class="form">
+          <h2 class="section__subtile">Так куда же я поеду?</h2>
+          <fieldset class="form__place-info form__input-container">Я поеду...
+            <!-- <input type="text" class="form__text">  заготовка под форму ввода-->
+          </fieldset>
+          <fieldset class="form__reason-info form__input-container">Потому что я...
+            <!-- <input type="text" class="form__text"> заготовка под формы ввода-->
+          </fieldset>
+          <button class="form__button">Поехали уже куда-нибудь!</button>
+        </form>
+        <img src="./images/airport-schedule.jpg" alt="" class="travel-form__image">
+      </section>
+
+      <section class="video ">
+        <h2 class="video__heading">А пока что - всё ещё сидим дома!</h2>
+        <video class="video__item" poster="images/video.jpg"></video>
+        <!-- нужно добавить ролик и источники 
+        <source src="" type="">-->
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">© 2021</p>
+    </footer>
+  </div>
+</body>
+
+</html

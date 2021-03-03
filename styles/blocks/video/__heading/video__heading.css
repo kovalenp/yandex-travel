@@ -1,0 +1,7 @@
+.video__heading{
+  position: absolute;
+  z-index: 1;
+  top:142px;
+  left:70px;
+  color: white;
+}

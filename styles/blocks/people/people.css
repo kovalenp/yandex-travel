@@ -1,0 +1,7 @@
+.people{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: flex-start;
+  margin-top: 146px;
+}
