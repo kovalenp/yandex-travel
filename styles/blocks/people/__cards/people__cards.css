@@ -1,4 +1,4 @@
-.people__cards{
+.people__cards {
   /* в файле разные отступы слева и справа. посмтрим по блоку section, может черзе него зададим
   стили поэтому пока ширину делкем на 100% блока по section */
   width: 100%;
@@ -6,6 +6,6 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 70px;
   list-style: none;
-  padding:0;
+  padding: 0;
   margin: 130px auto;
 }
