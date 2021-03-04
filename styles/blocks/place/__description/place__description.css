@@ -1,2 +1,8 @@
 .place__description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 11%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 574px;
 }

@@ -4,14 +4,13 @@
   flex-direction: column;
   justify-content: start;
   align-items: flex-start;
-  margin-top: 131px;
-  margin-left: 10%;
+  margin-top: 144px;
+  margin-left: 11%;
 }
-/* на брекпоинте 787 нужно сделать центрирование */
 
-@media screen and (max-width: 1239px) {
+/* @media screen and (max-width: 1239px) {
   .form {
     margin: auto;
     width: 80%;
   }
-}
+} */

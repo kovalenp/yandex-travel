@@ -1,6 +1,7 @@
 .place {
   display: grid;
-  grid-template-columns: 555px 1fr;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--color__background_accent);
 }
 
 .place:nth-child(even) > .place__image {
