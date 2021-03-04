@@ -1,17 +1,16 @@
 .form__destiantion {
-  width: 360px;
+  width: 100%;
   float: left;
-  /* width: 100%; */
   font-size: 16px;
   font-weight: 400;
   margin-top: 22%;
   padding-left: 20px;
   height: 34px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1023px) {
   .form__destiantion {
     margin-top: 30px;
-    width: calc(100% - 20px);
   }
 }

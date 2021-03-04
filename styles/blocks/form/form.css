@@ -1,6 +1,5 @@
 .form {
-  max-width: 380px;
-  /* width: 55%; */
+  width: 380px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -16,16 +15,3 @@
     width: 80%;
   }
 }
-
-/* @media screen and (max-width: 1023px) {
-  .form {
-    max-width: 80%;
-    margin-top: 40px;
-  }
-} */
-/* 
-@media screen and (max-width: 767px) {
-  .form {
-    max-width: 80%;
-  }
-} */
