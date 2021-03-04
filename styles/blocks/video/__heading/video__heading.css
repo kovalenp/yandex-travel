@@ -1,8 +1,16 @@
 .video__heading {
+  font-size: 40px;
+  font-weight: 700;
   margin: 0;
   position: absolute;
   z-index: 1;
   top: 20%;
-  left: 70px;
+  left: 72px;
   color: var(--color__background);
+}
+
+@media screen and (max-width: 767px) {
+  .video__heading {
+    margin: 60px auto;
+  }
 }

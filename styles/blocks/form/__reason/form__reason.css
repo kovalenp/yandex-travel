@@ -1,7 +1,16 @@
 .form__reason {
-  height: 110px;
+  width: 360px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 98px;
   margin-top: 19px;
-  resize: none;
-  padding-top: 10px;
-  padding-left: 10px;
+  padding-top: 9px;
+  padding-left: 20px;
 }
+
+@media screen and (max-width: 1023px) {
+  .form__reason {
+    width: calc(100% - 20px);
+  }
+}
+/* -20px временная заглушка т.к. из за падинга расширяется область и не нашел решения как это убрать */
