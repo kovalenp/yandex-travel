@@ -1,6 +1,7 @@
-.blockquote__author {
+.quote__author {
   font-size: 16px;
   font-weight: 700;
   margin: 0;
   text-transform: uppercase;
+  font-style: normal;
 }

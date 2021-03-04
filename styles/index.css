@@ -29,9 +29,9 @@
 @import "./blocks/people/__card/people__card.css";
 @import "./blocks/people/__text/people__text.css";
 
-@import "./blocks/blockquote/blockqute.css";
-@import "./blocks/blockquote/__author/blockquote__author.css";
-@import "./blocks/blockquote/__text/blockquote__text.css";
+@import "./blocks/quote/quote.css";
+@import "./blocks/quote/__author/quote__author.css";
+@import "./blocks/quote/__text/quote__text.css";
 
 @import "./blocks/travel-form/travel-form.css";
 @import "./blocks/travel-form/travel-form__block.css/travel-form__block.css";
@@ -39,8 +39,8 @@
 
 @import "./blocks/form/form.css";
 @import "./blocks/form/__input-container/form__input-container.css";
-@import "./blocks/form/__place-info/form__place-info.css";
-@import "./blocks/form/__reason-info/form__reason-info.css";
+@import "./blocks/form/__destination/form__destination.css";
+@import "./blocks/form/__reason/form__reason.css";
 @import "./blocks/form/__button/form__button.css";
 
 @import "./blocks/video/video.css";

@@ -4,5 +4,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(219, 146, 62);
+  background-color: var(--color__background_footer);
 }

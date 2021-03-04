@@ -113,35 +113,35 @@
           </div>
           <ul class="people__cards">
             <li class="people__card">
-              <blockquote class="blockquote">
-                <cite class="blockquote__author">иван бунин</cite>
-                <p class="blockquote__text">
+              <blockquote class="quote">
+                <cite class="quote__author">иван бунин</cite>
+                <p class="quote__text">
                   Человека делают счастливым три вещи: любовь, интересная работа
                   и возможность путешествовать.
                 </p>
               </blockquote>
             </li>
             <li class="people__card">
-              <blockquote class="blockquote">
-                <cite class="blockquote__author">Альбер Камю</cite>
-                <p class="blockquote__text">
+              <blockquote class="quote">
+                <cite class="quote__author">Альбер Камю</cite>
+                <p class="quote__text">
                   Путешествие как самая великая и серьезная наука помогает нам
                   вновь обрести себя.
                 </p>
               </blockquote>
             </li>
             <li class="people__card">
-              <blockquote class="blockquote">
-                <cite class="blockquote__author">Норвежская пословица</cite>
-                <p class="blockquote__text">
+              <blockquote class="quote">
+                <cite class="quote__author">Норвежская пословица</cite>
+                <p class="quote__text">
                   Лишь тот, кто странствует, открывает новые пути.
                 </p>
               </blockquote>
             </li>
             <li class="people__card">
-              <blockquote class="blockquote">
-                <cite class="blockquote__author">Мария Захарова</cite>
-                <p class="blockquote__text">
+              <blockquote class="quote">
+                <cite class="quote__author">Мария Захарова</cite>
+                <p class="quote__text">
                   В принципе зарубежная поездка – это серьезнейшее,
                   ответственнейшее и очень рискованное предприятие.
                 </p>
@@ -152,16 +152,24 @@
 
         <section class="travel-form">
           <form class="form">
-            <h2 class="section__subtile">Так куда же я поеду?</h2>
-            <fieldset class="form__place-info form__input-container">
-              Я поеду...
-              <!-- <input type="text" class="form__text">  заготовка под форму ввода-->
-            </fieldset>
-            <fieldset class="form__reason-info form__input-container">
-              Потому что я...
-              <!-- <input type="text" class="form__text"> заготовка под формы ввода-->
-            </fieldset>
-            <button class="form__button">Поехали уже куда-нибудь!</button>
+            <legend class="section__subtitle">Так куда же я поеду?</legend>
+            <input
+              type="text"
+              id="destination"
+              class="form__destiantion form__input-container"
+              placeholder="Я поеду..."
+            />
+            <textarea
+              class="form__reason form__input-container"
+              id="reason"
+              type="text"
+              placeholder="Потому что я ..."
+            ></textarea>
+            <input
+              type="submit"
+              class="form__button"
+              value="Поехали уже куда-нибудь!"
+            />
           </form>
           <img
             src="./images/airport-schedule.jpg"
@@ -172,9 +180,14 @@
 
         <section class="video">
           <h2 class="video__heading">А пока что - всё ещё сидим дома!</h2>
-          <video class="video__item" poster="images/video.jpg"></video>
-          <!-- нужно добавить ролик и источники 
-        <source src="" type="">-->
+          <video
+            class="video__item"
+            poster="images/video.jpg"
+            src="./videos/video.mp4"
+            type="video/mp4"
+          >
+            Извините, но Ваш браузер не поддерживает этот формат видео
+          </video>
         </section>
       </main>
       <footer class="footer">

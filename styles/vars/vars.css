@@ -3,4 +3,6 @@
   --color__background: #ffffff;
   --color__background_footer: #fecda7;
   --color__background_accent: #f2f2f2;
+  --color__background_button: rgb(78, 78, 78);
+  --color__background_form: rgb(228, 228, 228);
 }

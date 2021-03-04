@@ -1,0 +1,9 @@
+.form__destiantion {
+  width: 100%;
+  margin: 0;
+  margin-top: 83px;
+  padding-left: 10px;
+  height: 34px;
+  background-color: var(--color__background_form);
+  border: 0;
+}
