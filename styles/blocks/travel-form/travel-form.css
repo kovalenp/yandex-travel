@@ -1,5 +1,6 @@
 .travel-form {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
-  gap: 1px;
+  grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+  gap: 40px 0;
+  justify-content: center;
 }

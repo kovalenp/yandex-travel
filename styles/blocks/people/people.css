@@ -1,7 +1,14 @@
 .people {
   display: flex;
   flex-direction: column;
-  justify-self: center;
+  justify-content: space-between;
   align-items: flex-start;
-  margin-top: 146px;
+  margin-top: 142px;
+  margin-bottom: 108px;
+}
+
+@media screen and (max-width: 767px) {
+  .people {
+    margin: 60px auto;
+  }
 }

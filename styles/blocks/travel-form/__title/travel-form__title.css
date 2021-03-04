@@ -1,0 +1,15 @@
+.travel-form__title {
+  max-width: 265px;
+  padding: 0;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  /* letter-spacing: 0.4; */
+  margin-top: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .travel-form__title {
+    max-width: 100%;
+  }
+}

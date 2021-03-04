@@ -1,9 +1,16 @@
 .form__destiantion {
   width: 100%;
-  margin: 0;
-  margin-top: 83px;
-  padding-left: 10px;
+  float: left;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 22%;
+  padding-left: 20px;
   height: 34px;
-  background-color: var(--color__background_form);
-  border: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .form__destiantion {
+    margin-top: 30px;
+  }
 }

@@ -1,4 +1,6 @@
 .form__button {
+  font-size: 14px;
+  font-weight: 400;
   width: 216px;
   height: 35px;
   background-color: var(--color__background_button);
