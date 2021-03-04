@@ -1,0 +1,8 @@
+.form__button {
+  width: 216px;
+  height: 35px;
+  background-color: var(--color__background_button);
+  color: var(--color__background);
+  align-self: flex-end;
+  margin-top: 20px;
+}
