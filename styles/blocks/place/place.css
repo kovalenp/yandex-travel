@@ -7,3 +7,13 @@
 .place:nth-child(even) > .place__image {
   order: 2;
 }
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+
+  .place > .place__image {
+    order: 2;
+  }
+}

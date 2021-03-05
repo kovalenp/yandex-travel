@@ -3,3 +3,15 @@
   height: 574px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1023px) {
+  .place__image {
+    height: 442px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__image {
+    height: 327px;
+  }
+}

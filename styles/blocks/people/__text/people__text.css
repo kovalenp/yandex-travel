@@ -4,3 +4,10 @@
   justify-content: center;
   align-items: flex-start;
 }
+
+@media screen and (max-width: 767px) {
+  .people__text {
+    align-self: center;
+    text-align: center;
+  }
+}

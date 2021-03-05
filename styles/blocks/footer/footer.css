@@ -6,3 +6,15 @@
   align-items: center;
   background-color: var(--color__background_footer);
 }
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    min-height: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    min-height: 100px;
+  }
+}

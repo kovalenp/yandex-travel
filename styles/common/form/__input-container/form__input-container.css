@@ -11,3 +11,9 @@
 .form__input-container:focus {
   outline-color: var(--color__background_footer);
 }
+
+@media screen and (max-width: 767px) {
+  .form__input-container {
+    font-size: 12px;
+  }
+}

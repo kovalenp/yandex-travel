@@ -1,5 +1,17 @@
-.travel__destiantion {
+.travel__destination {
   margin-top: 22%;
   height: 34px;
   margin-bottom: 5%;
+}
+
+@media screen and (max-width: 1023px) {
+  .travel__destination {
+    margin-top: 18%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .travel__destination {
+    margin-top: 3%;
+  }
 }

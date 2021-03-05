@@ -6,3 +6,15 @@
   margin-top: -10px;
   margin-left: -14px;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer__copyright {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    font-size: 16px;
+  }
+}

@@ -3,3 +3,9 @@
   grid-template-columns: repeat(2, 1fr);
   background-color: var(--color__background_accent);
 }
+
+@media screen and (max-width: 767px) {
+  .travel {
+    grid-template-columns: 1fr;
+  }
+}

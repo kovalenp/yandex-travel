@@ -2,4 +2,18 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 92px;
+  position: relative;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    margin-top: 71px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    margin-top: 5px;
+    grid-template-columns: 1fr;
+  }
 }
