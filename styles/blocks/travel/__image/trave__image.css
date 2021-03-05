@@ -4,6 +4,12 @@
   object-fit: cover;
 }
 
+@media screen and (max-width: 1023px) {
+  .travel__image {
+    max-height: 515px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .travel__image {
     max-height: 200px;
