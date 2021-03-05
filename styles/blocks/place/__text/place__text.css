@@ -8,3 +8,9 @@
 .place__text:last-child:not(:only-child) {
   margin-bottom: 0px;
 }
+
+@media screen and (max-width: 767px) {
+  .place__text {
+    line-height: normal;
+  }
+}

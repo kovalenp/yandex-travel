@@ -1,19 +1,27 @@
 .video__heading {
-    font-size: 38px;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    line-height: 1.05;
-    margin: 0;
-    position: absolute;
-    top: 21%;
-    left: 5%;
-    color: var(--color__background);
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.05;
+  margin: 0;
+  position: absolute;
+  top: 21%;
+  left: 5%;
+  color: var(--color__background);
 }
 
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .video__heading {
-    font-size: 25px;
-    top: 25px;
-    left: 25px;
-  } */
+    font-size: 26px;
+    top: 10%;
+    left: 3%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__heading {
+    font-size: 18px;
+    top: 5%;
+    left: 3%;
+  }
 }

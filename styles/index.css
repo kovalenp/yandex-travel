@@ -10,8 +10,6 @@
 @import "./common/section/__subtitle/section__subtitle.css";
 @import "./common/form/form.css";
 @import "./common/form/__input-container/form__input-container.css";
-@import "./common/form/__destination/form__destination.css";
-@import "./common/form/__reason/form__reason.css";
 @import "./common/form/__button/form__button.css";
 
 @import "./blocks/page/page.css";

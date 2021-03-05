@@ -6,8 +6,19 @@
   line-height: 46px;
 }
 
-/* @media screen and (max-width: 767px) {
-  .travel-form__title {
-    max-width: 100%;
+@media screen and (max-width: 1023px) {
+  .travel__title {
+    line-height: normal;
+    font-size: 32px;
   }
-} */
+}
+
+@media screen and (max-width: 767px) {
+  .travel__title {
+    align-self: center;
+    text-align: center;
+    line-height: normal;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+}
