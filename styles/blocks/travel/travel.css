@@ -1,11 +1,14 @@
 .travel {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (1fr) [2];
   grid-template-columns: repeat(2, 1fr);
   background-color: var(--color__background_accent);
 }
 
 @media screen and (max-width: 767px) {
   .travel {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 }

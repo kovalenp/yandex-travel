@@ -1,19 +1,26 @@
 .place {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   background-color: var(--color__background_accent);
 }
 
 .place:nth-child(even) > .place__image {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
   order: 2;
 }
 
 @media screen and (max-width: 767px) {
   .place {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 
   .place > .place__image {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
     order: 2;
   }
 }

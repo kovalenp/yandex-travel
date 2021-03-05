@@ -1,5 +1,7 @@
 .intro {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   margin-top: 92px;
   position: relative;
@@ -14,6 +16,7 @@
 @media screen and (max-width: 767px) {
   .intro {
     margin-top: 5px;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 }
