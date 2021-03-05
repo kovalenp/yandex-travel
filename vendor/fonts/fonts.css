@@ -30,21 +30,3 @@
   font-weight: 400;
   src: url("./RobotoCondensed-Regular.ttf") format("truetype");
 }
-
-@font-face {
-  font-family: "Roboto";
-  font-weight: 400;
-  src: url("./Roboto-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-weight: 700;
-  src: url("./Roboto-Bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-weight: 900;
-  src: url("./Roboto-Black.ttf") format("truetype");
-}

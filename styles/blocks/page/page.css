@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   background-color: var(--color__background);
-  font-family: "Inter", "Roboto Condensed", Helvetica, sans-serif;
+  font-family: "Inter", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
