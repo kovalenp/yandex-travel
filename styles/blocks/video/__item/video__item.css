@@ -1,5 +1,6 @@
 .video__item {
   display: block;
+  -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
   max-height: 672px;
