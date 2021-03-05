@@ -12,5 +12,6 @@
 @media screen and (max-width: 767px) {
   .place__text {
     line-height: normal;
+    max-width: calc(100% - 2 * 20px);
   }
 }
