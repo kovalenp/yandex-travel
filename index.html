@@ -22,7 +22,9 @@
               <a href="#" class="link" target="_blank">Реальность</a>
             </li>
             <li class="header__nav-link">
-              <a href="#" class="link" target="_blank">Пожаловаться</a>
+              <a href="https://rkn.gov.ru/" class="link" target="_blank"
+                >Пожаловаться</a
+              >
             </li>
           </ul>
         </nav>
@@ -150,41 +152,49 @@
           </ul>
         </section>
 
-        <section class="travel-form">
-          <form class="form">
-            <legend class="travel-form__title">Так куда же я поеду?</legend>
-            <input
-              type="text"
-              id="destination"
-              class="form__destiantion form__input-container"
-              placeholder="Я поеду..."
-            />
-            <textarea
-              class="form__reason form__input-container"
-              id="reason"
-              type="text"
-              placeholder="Потому что я ..."
-            ></textarea>
-            <input
-              type="submit"
-              class="form__button"
-              value="Поехали уже куда-нибудь!"
-            />
-          </form>
+        <section class="travel">
+          <div class="travel__form">
+            <h2 class="travel__title">Так куда же я поеду?</h2>
+            <form
+              class="form"
+              action="https://echo.htmlacademy.ru"
+              method="get"
+              autocomplete="off"
+            >
+              <input
+                type="text"
+                id="destination"
+                name="destination"
+                class="travel__destiantion form__input-container"
+                placeholder="Я поеду..."
+              />
+              <textarea
+                class="travel__reason form__input-container"
+                id="reason"
+                name="reason"
+                placeholder="Потому что я ..."
+              ></textarea>
+              <input
+                type="submit"
+                class="travel__button form__button"
+                value="Поехали уже куда-нибудь!"
+              />
+            </form>
+          </div>
           <img
             src="./images/airport-schedule.jpg"
             alt=""
-            class="travel-form__image"
+            class="travel__image"
           />
         </section>
 
         <section class="video">
           <h2 class="video__heading">А пока что - всё ещё сидим дома!</h2>
           <video
+            controls
             class="video__item"
             poster="images/video.jpg"
             src="./videos/video.mp4"
-            type="video/mp4"
           >
             Извините, но Ваш браузер не поддерживает этот формат видео
           </video>

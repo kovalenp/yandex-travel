@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+/* @media screen and (max-width: 1239px) {
+  .form {
+    margin: auto;
+    width: 80%;
+  }
+} */
