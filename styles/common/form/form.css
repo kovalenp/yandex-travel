@@ -1,11 +1,8 @@
 .form {
-  width: 380px;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: flex-start;
-  margin-top: 144px;
-  margin-left: 11%;
 }
 
 /* @media screen and (max-width: 1239px) {

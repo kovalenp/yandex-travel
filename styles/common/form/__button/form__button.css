@@ -1,0 +1,21 @@
+.form__button {
+  font-size: 15px;
+  line-height: 1.15;
+  font-weight: 400;
+  width: 216px;
+  height: 35px;
+  background-color: var(--color__main-text);
+  color: var(--color__background);
+  border: 0;
+  transition: background-color 0.5s ease;
+}
+
+.form__button:hover {
+  background-color: var(--color__background_footer);
+  color: var(--color__main-text);
+}
+
+.form__button:active,
+.form__button:focus {
+  outline-color: var(--color__background_footer);
+}
