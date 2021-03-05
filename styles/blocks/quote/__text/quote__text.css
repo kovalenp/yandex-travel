@@ -1,4 +1,6 @@
 .quote__text {
+  /* font-family: "Roboto"; */
+  font-weight: 400;
   font-size: 14px;
   line-height: 22px;
   margin: 25px auto;

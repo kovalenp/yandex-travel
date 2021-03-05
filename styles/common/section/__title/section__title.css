@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   color: var(--color__background_footer);
+  font-family: "Roboto Condensed";
   font-size: 13px;
   line-height: 1.2;
-  letter-spacing: -0.01em;
   text-transform: uppercase;
 }
