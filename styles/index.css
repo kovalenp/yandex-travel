@@ -6,6 +6,7 @@
 @import "./common/visually-hidden.css";
 @import "./common/section/section.css";
 @import "./common/section/__title/section__title.css";
+@import "./common/section/__title/_spacing/section__title_spacing_wide.css";
 @import "./common/section/__subtitle/section__subtitle.css";
 @import "./common/form/form.css";
 @import "./common/form/__input-container/form__input-container.css";

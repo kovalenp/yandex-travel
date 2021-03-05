@@ -1,6 +1,7 @@
 .quote__author {
+  font-family: "Roboto Condensed";
   font-size: 14px;
-  font-weight: 900;
+  font-weight: 700;
   margin: 0;
   text-transform: uppercase;
   font-style: normal;
